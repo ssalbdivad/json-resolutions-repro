@@ -1,0 +1,13 @@
+{
+    "name": "foo",
+    "dependencies": {
+        "foo": "file:."
+    },
+    "exports": {
+        "./*.json": {
+            "types": "./*.json.d.ts",
+            "default": "./*.json"
+        }
+    },
+    "packageManager": "pnpm@9.1.4"
+}
