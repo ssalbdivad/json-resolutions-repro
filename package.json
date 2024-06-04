@@ -2,7 +2,12 @@
     "name": "foo",
     "type": "module",
     "dependencies": {
-        "foo": "file:."
+        "foo": "file:.",
+        "tsx": "4.11.2"
+    },
+    "scripts": {
+        "runNode": "node ./repro.js",
+        "runTs": "tsx ./repro.ts"
     },
     "exports": {
         "./*.json": {
