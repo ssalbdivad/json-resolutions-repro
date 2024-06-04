@@ -1,3 +1,4 @@
 import foo from "foo/foo.json"
 
-foo.foo
+console.log(foo.foo)
+

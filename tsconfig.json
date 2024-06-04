@@ -2,7 +2,6 @@
     "compilerOptions": {
         "strict": true,
         "moduleResolution": "Bundler",
-        "module": "Preserve",
-        "resolveJsonModule": false
+        "module": "Preserve"
     }
 }
